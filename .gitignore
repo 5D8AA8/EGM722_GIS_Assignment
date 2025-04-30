@@ -172,3 +172,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+notebook/.ipynb_checkpoints/GIS_Assigment-checkpoint.ipynb
