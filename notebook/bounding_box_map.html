@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8ef9d713dc4680937025fbd11915aafe {
+                #map_c74247f94c1a3f68e98cbfdcda0652ee {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_8ef9d713dc4680937025fbd11915aafe" ></div>
+            <div class="folium-map" id="map_c74247f94c1a3f68e98cbfdcda0652ee" ></div>
         
 </body>
 <script>
     
     
-            var map_8ef9d713dc4680937025fbd11915aafe = L.map(
-                "map_8ef9d713dc4680937025fbd11915aafe",
+            var map_c74247f94c1a3f68e98cbfdcda0652ee = L.map(
+                "map_c74247f94c1a3f68e98cbfdcda0652ee",
                 {
                     center: [22.337583694084636, 114.12342334376021],
                     crs: L.CRS.EPSG3857,
@@ -63,7 +63,7 @@
 
         
     
-            var tile_layer_e792dc80c41eb8b182921dbe0aa84d95 = L.tileLayer(
+            var tile_layer_523d090a06c2fb802a3aaff392e0fb32 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -80,16 +80,16 @@
             );
         
     
-            tile_layer_e792dc80c41eb8b182921dbe0aa84d95.addTo(map_8ef9d713dc4680937025fbd11915aafe);
+            tile_layer_523d090a06c2fb802a3aaff392e0fb32.addTo(map_c74247f94c1a3f68e98cbfdcda0652ee);
         
     
-            var rectangle_444702f671ff36a4fce79ab2aa5e611a = L.rectangle(
+            var rectangle_820ce303862b1752b211367e5b38925c = L.rectangle(
                 [[22.10321497315797, 113.818832485244], [22.5719524150113, 114.4280142022764]],
                 {"bubblingMouseEvents": true, "color": "orange", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_8ef9d713dc4680937025fbd11915aafe);
+            ).addTo(map_c74247f94c1a3f68e98cbfdcda0652ee);
         
     
-            rectangle_444702f671ff36a4fce79ab2aa5e611a.bindTooltip(
+            rectangle_820ce303862b1752b211367e5b38925c.bindTooltip(
                 `<div>
                      bounding box for hong kong
                  </div>`,
@@ -100,27 +100,27 @@
         
     
 
-        function geo_json_1a4010b59153b64aeb5641e1e5a9f0d2_onEachFeature(feature, layer) {
+        function geo_json_f68ebf22a0ded1af9af62aa93ab26b7e_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_1a4010b59153b64aeb5641e1e5a9f0d2 = L.geoJson(null, {
-                onEachFeature: geo_json_1a4010b59153b64aeb5641e1e5a9f0d2_onEachFeature,
+        var geo_json_f68ebf22a0ded1af9af62aa93ab26b7e = L.geoJson(null, {
+                onEachFeature: geo_json_f68ebf22a0ded1af9af62aa93ab26b7e_onEachFeature,
             
             ...{
 }
         });
 
-        function geo_json_1a4010b59153b64aeb5641e1e5a9f0d2_add (data) {
-            geo_json_1a4010b59153b64aeb5641e1e5a9f0d2
+        function geo_json_f68ebf22a0ded1af9af62aa93ab26b7e_add (data) {
+            geo_json_f68ebf22a0ded1af9af62aa93ab26b7e
                 .addData(data);
         }
-            geo_json_1a4010b59153b64aeb5641e1e5a9f0d2_add({"bbox": [113.818832485244, 22.10321497315797, 114.4280142022764, 22.5719524150113], "features": [{"bbox": [113.818832485244, 22.10321497315797, 114.4280142022764, 22.5719524150113], "geometry": {"coordinates": [[[114.2443454386807, 22.5719524150113, 0.0], [114.3441116223332, 22.56452460728271, 0.0], [114.4280142022764, 22.39964306162224, 0.0], [114.3472664068484, 22.15818419338908, 0.0], [114.1647851575084, 22.10321497315797, 0.0], [113.818832485244, 22.22058857507003, 0.0], [113.9093382316075, 22.41456912646813, 0.0], [114.0074629517499, 22.51612872658205, 0.0], [114.1646161940293, 22.56959536809539, 0.0], [114.2443454386807, 22.5719524150113, 0.0]]], "type": "Polygon"}, "id": "12", "properties": {"Name": "Hong Kong", "altitudeMo": null, "begin": null, "descriptio": null, "drawOrder": null, "end": null, "extrude": 0, "icon": null, "id": null, "tessellate": 1, "timestamp": null, "visibility": -1}, "type": "Feature"}], "type": "FeatureCollection"});
-        geo_json_1a4010b59153b64aeb5641e1e5a9f0d2.setStyle(function(feature) {return feature.properties.style;});
+            geo_json_f68ebf22a0ded1af9af62aa93ab26b7e_add({"bbox": [113.818832485244, 22.10321497315797, 114.4280142022764, 22.5719524150113], "features": [{"bbox": [113.818832485244, 22.10321497315797, 114.4280142022764, 22.5719524150113], "geometry": {"coordinates": [[[114.2443454386807, 22.5719524150113, 0.0], [114.3441116223332, 22.56452460728271, 0.0], [114.4280142022764, 22.39964306162224, 0.0], [114.3472664068484, 22.15818419338908, 0.0], [114.1647851575084, 22.10321497315797, 0.0], [113.818832485244, 22.22058857507003, 0.0], [113.9093382316075, 22.41456912646813, 0.0], [114.0074629517499, 22.51612872658205, 0.0], [114.1646161940293, 22.56959536809539, 0.0], [114.2443454386807, 22.5719524150113, 0.0]]], "type": "Polygon"}, "id": "12", "properties": {"Name": "Hong Kong", "altitudeMo": null, "begin": null, "descriptio": null, "drawOrder": null, "end": null, "extrude": 0, "icon": null, "id": null, "tessellate": 1, "timestamp": null, "visibility": -1}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_f68ebf22a0ded1af9af62aa93ab26b7e.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-            geo_json_1a4010b59153b64aeb5641e1e5a9f0d2.addTo(map_8ef9d713dc4680937025fbd11915aafe);
+            geo_json_f68ebf22a0ded1af9af62aa93ab26b7e.addTo(map_c74247f94c1a3f68e98cbfdcda0652ee);
         
 </script>
 </html>
